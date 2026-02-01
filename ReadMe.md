@@ -22,9 +22,11 @@ This project comes with helper functions to interact with the Windows API, but t
 
 <details>
 <summary><b>Planned Features</b></summary>
-* An implementation of the main Windows event loop via `node-addon-api`'s async workers
-* An optional, built-in linting step for the C++ code
-* A separate library, added as a dependency by default, for added helper functions and NodeJS types
+
+- An implementation of the main Windows event loop via `node-addon-api`'s async workers
+- An optional, built-in linting step for the C++ code
+- A separate library, added as a dependency by default, for added helper functions and NodeJS types
+
 </details>
 
 ## Usage
