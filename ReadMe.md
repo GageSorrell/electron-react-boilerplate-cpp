@@ -37,7 +37,8 @@ This project comes with helper functions to interact with the Windows API, but t
 4. Build your project via `npm run build`
 
 <details>
-<summary>How the `DECLARE_NAPI_FUNCTION` works</summary>
+<summary>How the <code>DECLARE_NAPI_FUNCTION</code> works</summary>
+
 The macro is used as
 ```cpp
 DECLARE_NAPI_FUNCTION(FunctionName, ReturnType[, ExportName="CustomExportedName"][, Argument1Name, Argument1Type[, Argument2Name, Argument2Type ...]])
@@ -62,6 +63,7 @@ The full definition of the macro is
 ```cpp
 #define DECLARE_NAPI_FUNCTION(FunctionName, ...) Napi::Value FunctionName(const Napi::CallbackInfo& CallbackInfo);
 ```
+
 </details>
 
 ## Example
