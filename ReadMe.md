@@ -21,7 +21,7 @@ The build system uses CMake, which is cross-platform, meaning you can likely int
 This project comes with helper functions to interact with the Windows API, but these can easily be removed.
 
 <details>
-<summary>**Planned Features**</summary>
+<summary><b>Planned Features</b></summary>
 * An implementation of the main Windows event loop via `node-addon-api`'s async workers
 * An optional, built-in linting step for the C++ code
 * A separate library, added as a dependency by default, for added helper functions and NodeJS types
