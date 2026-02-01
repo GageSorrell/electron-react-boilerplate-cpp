@@ -48,6 +48,7 @@ Type definitions are written to `Generated.Types.ts`, which is exported by `inde
 The preprocessor strips out all arguments but the `FunctionName`, and the macro expands to a function declaration that returns an `Napi::Value` and accepts a `const Napi::CallbackInfo&`.
 
 ###### Example
+
 The statement
 ```cpp
 DECLARE_NAPI_FUNCTION(BlurBackground, HWindow, Bounds, FBox, SourceHandle, HWindow);
