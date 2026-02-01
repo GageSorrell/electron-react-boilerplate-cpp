@@ -1,9 +1,9 @@
-# Electron React Windows Boilerplate (ERWB)
+# `electron-react-boilerplate-cpp` (ERBC)
 
-*The [electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) extended to interact with the [Windows API](https://learn.microsoft.com/en-us/windows/win32/api/) in C++ via the [`node-addon-api`](https://github.com/nodejs/node-addon-api/blob/main/doc/README.md).*
+*The [electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) extended to allow for custom C++ code via the [`node-addon-api`](https://github.com/nodejs/node-addon-api/blob/main/doc/README.md).  Helpers are included to access the [Windows API](https://learn.microsoft.com/en-us/windows/win32/api/).
 
-The [Documentation](https://erwb.sorrell.sh) is hosted as a subdomain of the author's personal website.
-Alternatively, its [Markdown source](https://github.com/GageSorrell/SorrellWmDocumentation/blob/main/Source/ReadMe.md) can be viewed on GitHub from [its repository](https://github.com/GageSorrell/SorrellWmDocumentation).
+The [Documentation](https://erbc.sorrell.sh) is hosted as a subdomain of the [author's personal website](https://sorrell.sh).
+Alternatively, its [Markdown source](https://github.com/GageSorrell/electron-react-boilerplate-cpp-docs/blob/main/Source/ReadMe.md) can be viewed on GitHub from [its repository](https://github.com/GageSorrell/electron-react-boilerplate-cpp-docs).
 
 ## Features
 
