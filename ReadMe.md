@@ -12,6 +12,14 @@ Alternatively, its [Markdown source](https://github.com/GageSorrell/SorrellWmDoc
 * A shared package for type definitions (so the signatures of your exported functions can use your custom types)
 * Basic example, which sends data from the frontend to the C++ package, and back to the frontend
 
+### "Can I only access the Windows API with my C++ code?"
+
+No, this is just the intended use case.
+You do not need to use the Windows API with your C++ code.
+Feel free to pull in other APIs, or write C++ code with no dependencies.
+The build system uses CMake, which is cross-platform, meaning you can likely interact with MacOS, or even your favorite Linux environment.
+This project comes with helper functions to interact with the Windows API, but these can easily be removed.
+
 <details>
 <summary>**Planned Features**</summary>
 * An implementation of the main Windows event loop via `node-addon-api`'s async workers
