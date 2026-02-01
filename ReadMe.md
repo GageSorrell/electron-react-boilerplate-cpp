@@ -1,3 +1,5 @@
+<!-- @TODO Add banner image, hosted in Documentation repo. -->
+
 # `electron-react-boilerplate-cpp` (ERBC)
 
 The [electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) extended to allow for custom C++ code via the [`node-addon-api`](https://github.com/nodejs/node-addon-api/blob/main/doc/README.md).  Helpers are included to access the [Windows API](https://learn.microsoft.com/en-us/windows/win32/api/).
