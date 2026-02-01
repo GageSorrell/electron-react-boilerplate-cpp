@@ -37,7 +37,7 @@ This project comes with helper functions to interact with the Windows API, but t
 4. Build your project via `npm run build`
 
 <details>
-<summary>How the <code>DECLARE_NAPI_FUNCTION</code> works</summary>
+<summary><b>How the <code>DECLARE_NAPI_FUNCTION</code> works</b></summary>
 
 The macro is used as
 ```cpp
