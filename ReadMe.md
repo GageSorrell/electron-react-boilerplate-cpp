@@ -1,4 +1,5 @@
 <!-- @TODO Add banner image, hosted in Documentation repo. -->
+<!-- @TODO Add badges, such as "Sponsors", current version, *etc.* -->
 
 # `electron-react-boilerplate-cpp` (ERBC)
 
