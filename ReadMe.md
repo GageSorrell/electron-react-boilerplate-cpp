@@ -5,6 +5,9 @@ The [electron-react-boilerplate](https://github.com/electron-react-boilerplate/e
 The [Documentation](https://erbc.sorrell.sh) is hosted as a subdomain of the [author's personal website](https://sorrell.sh).
 Alternatively, its [Markdown source](https://github.com/GageSorrell/electron-react-boilerplate-cpp-docs/blob/main/Source/ReadMe.md) can be viewed on GitHub from [its repository](https://github.com/GageSorrell/electron-react-boilerplate-cpp-docs).
 
+> [!NOTE]
+> `electron-react-boilerplate-cpp` is based on `electron-react-boilerplate`, but is not affiliated with `electron-react-boilerplate`.
+
 ## Features
 
 * A separate package to contain your C++ code, already configured to use the `node-addon-api`
